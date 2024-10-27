@@ -1,0 +1,110 @@
+/* Reset default styling */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body and text styling */
+body {
+    font-family: 'Amiri', serif;
+    background-color: #f9f2e7; /* Soft beige background */
+    color: #5b3a29; /* Dark brown text */
+    line-height: 1.6; /* Improved readability */
+}
+
+/* Heading styling */
+.heading {
+    margin: 20px 0;
+    font-family: 'Lobster', cursive;
+    color: #8b5a2b; /* Medium brown */
+    text-align: center; /* Centered heading */
+    font-size: 2.5em; /* Increased font size */
+}
+
+/* Container styling */
+.container {
+    margin: 30px auto; /* Centered container */
+    max-width: 600px; /* Max width for better readability */
+    padding: 30px; /* Increased padding */
+    background-color: #ffffff; /* White container */
+    border-radius: 15px; /* Softer corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Main section */
+.main {
+    padding: 20px;
+}
+
+/* Form group */
+.form-group {
+    margin-bottom: 20px; /* Increased spacing */
+}
+
+/* Input field */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #d0b493; /* Light brown border */
+    padding: 12px; /* Slightly larger padding */
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s; /* Smooth transition */
+}
+
+/* Input focus state */
+.form-control:focus {
+    border-color: #8b5a2b; /* Highlight on focus */
+    outline: none; /* Remove outline */
+}
+
+/* Prevent text wrapping in select options */
+.form-control option {
+    white-space: nowrap;
+}
+
+/* Button styling */
+.btn {
+    border-radius: 5px;
+    padding: 12px 25px; /* Increased padding */
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+/* Primary button */
+.btn-primary {
+    background-color: #8b5a2b; /* Medium brown */
+    border-color: #8b5a2b; /* Matching border */
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #7a4e24; /* Darker brown on hover */
+    transform: scale(1.05); /* Slight scaling on hover */
+}
+
+/* Reset button */
+.btn-primary.reset {
+    background-color: #d0b493; /* Light brown */
+    border-color: #d0b493;
+}
+
+.btn-primary.reset:hover {
+    background-color: #c5a76b; /* Darker light brown on hover */
+}
+
+/* Center text */
+.text-center {
+    text-align: center;
+}
+
+/* Converted amount display */
+#finalAmount {
+    margin-top: 30px; /* Increased spacing */
+}
+
+.finalValue {
+    color: #5b3a29; /* Dark brown for the final value */
+    font-weight: bold;
+    font-size: 1.5em; /* Larger font size */
+}
